@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DIT Project Showcase — The College of Modern Sciences</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== LOGIN GATE ===================== -->
+  <div class="login-gate" id="loginGate">
+    <form class="login-box" id="loginForm">
+      <div class="login-seal">
+        <img src="logos/cms-logo.png" alt="The College of Modern Sciences crest">
+      </div>
+      <h2>The College of Modern Sciences</h2>
+      <p class="login-sub">DIT Project Portfolio &middot; CMS Projects</p>
+
+      <label class="login-label" for="loginUser">Username</label>
+      <input type="text" id="loginUser" class="login-input" autocomplete="username" required>
+
+      <label class="login-label" for="loginPass">Password</label>
+      <input type="password" id="loginPass" class="login-input" autocomplete="current-password" required>
+
+      <p class="login-error" id="loginError"></p>
+
+      <button type="submit" class="login-btn">Enter Portfolio</button>
+    </form>
+  </div>
+
+  <!-- ===================== SITE BODY ===================== -->
+  <div id="siteBody" style="display:none;">
+
+    <!-- ===================== HEADER / HERO ===================== -->
+    <header class="hero">
+      <div class="wrap hero-inner">
+        <div class="seal">
+          <img src="logos/cms-logo.png" alt="The College of Modern Sciences crest">
+        </div>
+
+        <p class="eyebrow">Diploma in Information Technology &middot; Project Showcase</p>
+        <h1>The College of Modern Sciences</h1>
+        <p class="hero-sub">Projects submitted by DIT students for partial fulfilment of the requirements of the Diploma in Information Technology.</p>
+
+        <div class="contact-strip">
+          <span><svg class="ic" viewBox="0 0 24 24"><path d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8zm0 11a3 3 0 110-6 3 3 0 010 6z"/></svg> Near Girls Degree College, Saidu Sharif, Swat</span>
+          <span class="dot">&bull;</span>
+          <span><svg class="ic" viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z"/></svg> Principal CMS &mdash; Sir Javed Iqbal &nbsp;·&nbsp; 0343-9442240</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===================== STAFF BAR ===================== -->
+    <section class="staff-bar">
+      <div class="wrap staff-bar-inner" id="staffBar"><!-- rendered by script.js --></div>
+    </section>
+
+    <!-- ===================== PROJECT GRID ===================== -->
+    <main class="wrap">
+      <div class="section-head">
+        <h2>Student Projects</h2>
+        <span class="count" id="projectCount"></span>
+      </div>
+      <div class="grid" id="projectGrid"><!-- rendered by script.js --></div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p><strong>The College of Modern Sciences</strong> &mdash; Near Girls Degree College, Saidu Sharif, Swat</p>
+        <p class="muted">Principal CMS: Sir Javed Iqbal &nbsp;·&nbsp; 0343-9442240</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="projects-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
