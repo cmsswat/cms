@@ -26,10 +26,20 @@ const PROJECTS = [
   {
     code: "WDR",
     title: "Wisdom Daycare Reception Management System",
-    tagline: "A reception desk system that collects students information from parents,complete the admission form and send to account.",
+    tagline: "A reception desk system for logging children's daily check-in and check-out at a daycare.",
     students: ["Shakila", "Khadija", "Karishma"],
     liveUrl: "https://cmsswat.github.io/wdc/",
     logo: "logos/wisdom-daycare-reception.png",
+    demoUser: "",
+    demoPass: ""
+  },
+  {
+    code: "BSA",
+    title: "Bloom School Attendance System",
+    tagline: "Simple Webpage for Bloom School Attendance ,Daily , Monthly and Weekly Attendance Reports",
+    students: ["Adnan", "Ihsan", "Mehran"],
+    liveUrl: "https://cmsswat.github.io/bsa/",
+    logo: "logos/bsa.jpg",
     demoUser: "",
     demoPass: ""
   },
