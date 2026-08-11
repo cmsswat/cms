@@ -44,6 +44,16 @@ const PROJECTS = [
     demoPass: ""
   },
   {
+    code: "SDC",
+    title: "Shifa Dental Clinic ",
+    tagline: "Website for Shifa Dental Clinic , account and token issue info base . with public page. ",
+    students: ["M.Hasheer", "M.Suliman ", "HabibUllah"],
+    liveUrl: "https://cmsswat.github.io/sdc/",
+    logo: "logos/shifa.png",
+    demoUser: "",
+    demoPass: ""
+  },
+  {
     code: "WDA",
     title: "Wisdom Daycare Account Management",
     tagline: "An accounts and fee management system for tracking daycare payments and financial records.",
