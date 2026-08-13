@@ -34,6 +34,16 @@ const PROJECTS = [
     demoPass: ""
   },
   {
+    code: "BTS",
+    title: "Be The Smart School & College",
+    tagline: "A complete website for the admission and account of Be The Smart School & College.",
+    students: ["Azlan Ali Zeb", "Wali Muhammad", "Umair Khan"],
+    liveUrl: "https://cmsswat.github.io/bts/",
+    logo: "logos/bts.png",
+    demoUser: "",
+    demoPass: ""
+  },
+  {
     code: "BSA",
     title: "Bloom School Attendance System",
     tagline: "Simple Webpage for Bloom School Attendance ,Daily , Monthly and Weekly Attendance Reports",
