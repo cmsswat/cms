@@ -63,6 +63,16 @@ const PROJECTS = [
     demoUser: "",
     demoPass: ""
   },
+   {
+    code: "UTT",
+    title: "Urdu Typing Tutor",
+    tagline: "Urdu typing tutor for new students. Learn Urdu typing from basic to advance. ",
+    students: ["Sudais", "M. Azlan ", "Sudais Khan"],
+    liveUrl: "https://cmsswat.github.io/utt/",
+    logo: "logos/UTT.png",
+    demoUser: "",
+    demoPass: ""
+  },
   {
     code: "WDA",
     title: "Wisdom Daycare Account Management",
