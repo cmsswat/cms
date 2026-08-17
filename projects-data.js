@@ -63,6 +63,16 @@ const PROJECTS = [
     demoUser: "",
     demoPass: ""
   },
+    {
+    code: "CMS-A",
+    title: "The College of Modern Sciences",
+    tagline: "The CMS public information page provides official information about (CMS), including its programs, facilities, activities, and contact details..",
+    students: ["Shah Zaid Rahman", "Hurair Anwar", "Saad Bacha"],
+    liveUrl: "https://cmsswat.github.io/edu/",
+    logo: "logos/cms-logo.png",
+    demoUser: "",
+    demoPass: ""
+  },
    {
     code: "UTT",
     title: "Urdu Typing Tutor",
