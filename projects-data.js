@@ -53,6 +53,16 @@ const PROJECTS = [
     demoUser: "",
     demoPass: ""
   },
+    {
+    code: "SCP",
+    title: "Swat Car Parking",
+    tagline: "A complete web application for Swat car parking, including an interactive map and account details",
+    students: ["M. Siraj", "Babar Iqbal", "Zaryab Hussain"],
+    liveUrl: "https://cmsswat.github.io/scp/",
+    logo: "logos/scp.png",
+    demoUser: "",
+    demoPass: ""
+  },
   {
     code: "SDC",
     title: "Shifa Dental Clinic ",
