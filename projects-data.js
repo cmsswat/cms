@@ -26,7 +26,7 @@ const PROJECTS = [
   {
     code: "WDR",
     title: "Wisdom Daycare Reception Management System",
-    tagline: "A reception desk system for logging children's daily check-in and check-out at a daycare.",
+    tagline: "An all-in-one daycare management website to streamline student admissions, profile tracking, pickup authentication, fee calculations, receipt printing, and JSON data backups.",
     students: ["Shakila", "Khadija", "Karishma"],
     liveUrl: "https://cmsswat.github.io/wdc/",
     logo: "logos/wisdom-daycare-reception.png",
